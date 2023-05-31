@@ -21,13 +21,37 @@ Escribe por pantalla el elemento que ocupa la segunda posición.
 Sustituye el elemento que ocupa la segunda posición por la ciudad de 'Barcelona'.
 
 let ciudades = prompt("Coloque el nombre de ciudades.");
-let i = [];
+let i = ['Nueva York, Estados Unidos', 'Barcelona, España', 'Tokio, Japón', 'Londres, Reino Unido', 
+'Roma, Italia', 'Pekín, China', 'Río de Janeiro, Brasil', 'Ámsterdam, Países Bajos', 'Sídney, Australia', 'El Cairo, Egipto'];
     
 while (ciudades !== "cancelar") {
     i.push(ciudades);
+}*/
+
+let variables = "la comision ninja";
+
+function vocales(cadena) {
+  const vocales = ['a', 'e','i','o','u'];
+  let cadenasalida = []; // Para guardar las vocales dentro del array.
+  //cadena.length()
+  //cadena.split/*divide la cadena de texto*/("").fortach/*recorre por cada letra*/(function(letra){
+  //  console.log(letra);
+//  });
+  for (let i = 0; i < cadena.length; i++) { //Este for se lo para recorrer letra por letra de cadena.
+    for (let j = 0; j < array.length; j++) { // Este for recorre la const. de vocales.
+      if (cadena [i] === vocales [j]) { // Este if compara la letra en una vocal.
+            cadenasalida.push(vocales[i]);
+    
+      }      
+    }
+    
+  }
+    return cadenasalida
 }
 
-console.log(i);*/
+console.log(vocales);
+
+
 
 
 
